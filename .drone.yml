@@ -12,4 +12,8 @@ pipeline:
       - go build
       - pwd
       - ls -la .
+publish:
+  image: plugins/docker
+  registry: hub.docker.com
+  repo: hub.docker.com/r/stefanhans/Go4Drone-Apps
 
