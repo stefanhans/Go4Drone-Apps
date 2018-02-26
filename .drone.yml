@@ -5,4 +5,3 @@ pipeline:
       - export GOPATH=/drone
       - go get
       - go build
-      - go test
