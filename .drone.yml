@@ -10,4 +10,6 @@ pipeline:
     commands:
       - go get
       - go build
+      - pwd
+      - ls -la .
 
