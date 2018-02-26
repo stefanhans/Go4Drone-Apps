@@ -3,7 +3,7 @@ workspace:
   path: src/github.com/stefanhans/Go4Drone-Apps
 clone:
   git:
-  image: plugins/git
+    image: plugins/git
 pipeline:
   build:
     image: golang
