@@ -10,7 +10,7 @@ pipeline:
     commands:
       - go get
       - go build -o ./drone-app
-      - ls -la .
+      - ls -la drone-app
   publish:
     image: plugins/docker
     repo: stefanhans/drone-app
