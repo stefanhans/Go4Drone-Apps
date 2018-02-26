@@ -9,7 +9,7 @@ pipeline:
     image: golang
     commands:
       - go get
-      - go build
+      - go build -o ./drone-app
       - pwd
       - ls -la .
   publish:

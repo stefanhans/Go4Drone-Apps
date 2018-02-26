@@ -1,4 +1,4 @@
 FROM scratch
-COPY ["./Go4Drone-Apps", "/"]
-ENTRYPOINT ["/Go4Drone-Apps"]
+COPY ["./drone-app", "/"]
+ENTRYPOINT ["/drone-app"]
 EXPOSE 8080
