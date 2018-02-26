@@ -10,7 +10,6 @@ pipeline:
     commands:
       - go get
       - go build -o ./drone-app
-      - which docker
       - ls -la .
   publish:
     image: plugins/docker
