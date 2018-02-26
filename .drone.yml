@@ -2,8 +2,7 @@ pipeline:
   build:
     image: golang
     commands:
-      - echo $GOPATH
-      - which go
+      - export GOPATH=/drone
       - go get
       - go build
       - go test
