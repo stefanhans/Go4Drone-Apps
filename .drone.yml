@@ -1,7 +1,9 @@
+workspace:
+  base: /go
+
 pipeline:
   build:
     image: golang
     commands:
-      - export GOPATH=/drone
       - go get
       - go build
