@@ -14,6 +14,6 @@ pipeline:
       - ls -la .
   publish:
     image: plugins/docker
-    registry: hub.docker.com
+    registry: docker.io
     repo: stefanhans/drone-app
 
