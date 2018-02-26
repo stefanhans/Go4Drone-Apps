@@ -1,5 +1,6 @@
 workspace:
   base: /go
+    path: src/github.com/stefanhans/Go4Drone-Apps
 
 pipeline:
   build:
