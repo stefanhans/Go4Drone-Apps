@@ -15,5 +15,5 @@ pipeline:
     image: plugins/docker
     repo: stefanhans/drone-app
     tags: latest
-    secrets: [ docker_username, docker_passwd ]
+    secrets: [ docker_username, docker_password ]
 
