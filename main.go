@@ -14,13 +14,13 @@ var html = `
   <meta charset="utf-8" />
   <title>Go4k8s</title>
 </head>
-<body style="background-color:magenta">
+<body style="background-color:aqua">
   <h3>Hello From Go4k8s Webserver</h3>
   <p>Version: %s</p>
 </body>
 </html>
 `
-var version = "1.0.5 "
+var version = "1.0.6"
 
 func httpHandler(w http.ResponseWriter, r *http.Request) {
 	format := "%s - [%s] \"%s %s %s\" %s\n"
