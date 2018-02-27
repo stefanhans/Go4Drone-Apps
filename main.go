@@ -14,7 +14,7 @@ var html = `
   <meta charset="utf-8" />
   <title>Go4k8s</title>
 </head>
-<body style="background-color:amber">
+<body style="background-color:magenta">
   <h3>Hello From Go4k8s Webserver</h3>
   <p>Version: %s</p>
 </body>
